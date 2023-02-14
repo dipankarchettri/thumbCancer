@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(images/background.jpg);
+    background-size: 200vh auto;
+    background-repeat: no-repeat;
+    color:white;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#we-are{
+    color:black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 200px auto auto auto ;
+    width: 50%;
+    text-align:center;
+}
+
+#we-are h1{
+    font-family: playfair display;
+    font-size: 70px;
+
+}
+
+
+#we-are p{
+    margin-top: 15px;
+    font-size: larger;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px 0 200px;
+}
+
+.navbar nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.navbar nav ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navbar .logo-text{
+    font-size: 30px;
+}
+
+.navbar nav ul li a:hover{
+    color: aliceblue;
+
+}
+
+.navbar div img{
+    height: 50px;
+    transform: translate3d(1.3rem, .5rem, 0)
+
+}
+
+.footer{
+    text-align: end;
+    position: absolute;
+    bottom: 0px;
+}

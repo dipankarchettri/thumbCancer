@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+background: url(images/construction\ .jpg);
+background-size: 150vh auto;
+background-repeat: no-repeat;
+color:goldenrod;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 900px auto auto auto ;
+    text-align:center
+}
